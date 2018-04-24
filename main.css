@@ -1,11 +1,14 @@
 html {
     overflow-y: scroll;
+    background-color: #FBFBFB;
 }
 
 .navigation a {
     text-decoration: none;
 
 }
+
+
 
 /*footer
 ––––––––––––––––––––––––––––––––––––––––––––––––––*/
@@ -42,7 +45,7 @@ footer {
 
 .nav_icon_container {margin: 0 25px; display: inline;}
 
-.navicon svg {max-height: 27px;}
+.navicon svg {max-height: 27px; fill: transparent;}
 
 .navicon #pen, 
 .navicon #camera, 
@@ -94,7 +97,13 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-.projectimage {margin-bottom: 2%;}
+.projectimage {padding-bottom: 2.5rem; width:100%;}
+.projectimage:last-child {padding-bottom: 0;}
+.projectwrapper {padding: 0 5rem;}
+.section {padding: 5rem 0;}
+
+h6,
+p:last-child {margin-bottom: 0;}
 
 
 /*PHOTOGRAPHY________________________________________________*/
