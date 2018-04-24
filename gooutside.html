@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="response.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script> $(function(){ $('.header').load("headerprojects.html"); }); </script>
     <meta name="viewport" content="width=device-width">
     <title>
         JUSTIN MOLINA
@@ -15,80 +17,7 @@
 
 <body>
     <div class="container">
-        <header class="topbar twelve columns">
-            <div class="eight columns">
-                <div class="title">
-                    <a href="index.html">Justin Molina</a>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="navigation">
-                    <div class="nav_icon_container">
-                        <!-- PEN SVG -->
-                        <?xml version="1.0" encoding="UTF-8"?>
-                        <a class="navicon" href="index.html">
-                            <svg width="24px" height="34px" viewBox="0 0 24 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-                                <title>pen</title>
-                                <desc>Created with Sketch.</desc>
-                                <defs></defs>
-                                <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="Desktop-HD" transform="translate(-1138.000000, -74.000000)" stroke-width="2" stroke="#4A4A4A">
-                                        <g id="Nav" transform="translate(1139.000000, 75.000000)">
-                                            <g id="current">
-                                                <rect id="Rectangle-4" x="3" y="28" width="15" height="4" rx="2"></rect>
-                                                <path d="M12.6017762,0.611258475 L12.6017762,10.3215417 C12.6017762,10.9116509 12.8304655,11.4843052 13.258045,11.904565 C14.0480623,12.679293 14.461782,13.8111748 14.2012148,15.034359 C13.9240158,16.3374328 12.8408604,17.3947956 11.495752,17.6673603 C9.20054369,18.1325999 7.17906951,16.4475328 7.17906951,14.3059535 C7.17906951,13.3741315 7.56437621,12.5336119 8.18738111,11.9166491 C8.61703966,11.4903473 8.85681685,10.917693 8.85681685,10.3215417 L8.85681685,0.611258475 C8.85681685,0.376960297 8.53387994,0.29707066 8.41814933,0.502501155 L0.521440956,14.4979571 C-0.0572120927,15.5244383 0.249785872,16.8033438 1.23522855,17.4793847 C2.48054535,18.3353451 3.98435028,19.8290799 4.49786155,22.2412098 C4.7203138,23.2891739 5.70575648,24.0222788 6.81039475,24.0222788 L14.6488913,24.0222788 C15.7535296,24.0222788 16.7375863,23.2898452 16.9614245,22.2418812 C17.4756288,19.8351219 18.9828987,18.3387018 20.2289085,17.4813987 C21.2115792,16.8053578 21.5171912,15.5271236 20.9385381,14.5019852 L13.0397507,0.502501155 C12.9240201,0.29707066 12.6017762,0.376960297 12.6017762,0.611258475" id="Fill-1"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </g>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="nav_icon_container">
-                        <!--CAMERA SVG LINE-->
-                        <?xml version="1.0" encoding="UTF-8"?>
-                        <a class="navicon" href="photography.html">
-                            <svg width="43px" height="33px" viewBox="0 0 43 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-                                <title>camera</title>
-                                <desc>Created with Sketch.</desc>
-                                <defs></defs>
-                                <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="Desktop-HD" transform="translate(-1197.000000, -76.000000)" stroke="#4A4A4A" stroke-width="2" fill="#FFFFFF">
-                                        <g id="Nav" transform="translate(1121.000000, 76.000000)">
-                                            <g transform="translate(77.000000, 1.000000)">
-                                                <path id="camera" d="M27.5823,3.9327 L27.3453,2.7367 C27.0283,1.1457 25.6323,-0.0003 24.0103,-0.0003 L15.9523,-0.0003 C14.3103,-0.0003 12.9013,1.1757 12.6073,2.7917 L12.4003,3.9327 L3.3993,3.9327 C1.5213,3.9327 0.0003,5.4547 0.0003,7.3317 L0.0003,27.2197 C0.0003,29.0967 1.5213,30.6187 3.3993,30.6187 L36.7433,30.6187 C38.6213,30.6187 40.1443,29.0967 40.1443,27.2197 L40.1443,7.3317 C40.1443,5.4547 38.6213,3.9327 36.7433,3.9327 L27.5823,3.9327 Z" id="Fill-1"></path>
-                                                <path d="M7.77762924,13.4595998 L5.94320751,13.4595998 C5.01177153,13.4595998 4.2498,12.6976283 4.2498,11.7674292 L4.2498,9.93177055 C4.2498,9.00157153 5.01177153,8.2396 5.94320751,8.2396 L7.77762924,8.2396 C8.70906522,8.2396 9.46979979,9.00157153 9.46979979,9.93177055 L9.46979979,11.7674292 C9.46979979,12.6976283 8.70906522,13.4595998 7.77762924,13.4595998" id="Fill-6"></path>
-                                                <path d="M27.2805001,17.0465 C27.2805001,21.0286399 24.0526399,24.2565001 20.0705,24.2565001 C16.0883602,24.2565001 12.8605,21.0286399 12.8605,17.0465 C12.8605,13.0643602 16.0883602,9.8365 20.0705,9.8365 C24.0526399,9.8365 27.2805001,13.0643602 27.2805001,17.0465 Z" id="Stroke-4"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </g>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="nav_icon_container">
-                        <!--PROFILE SVG-->
-                        <?xml version="1.0" encoding="UTF-8"?>
-                        <a class="navicon" href="about.html">
-                            <svg width="28px" height="33px" viewBox="0 0 28 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="Welcome" stroke="none" stroke-width="2" fill="white" fill-rule="evenodd">
-                                    <g id="Desktop-HD" transform="translate(-1290.000000, -76.000000)" stroke="#4A4A4A">
-                                        <g id="Nav" transform="translate(1126.000000, 76.000000)">
-                                            <g id="profile" transform="translate(165.000000, 0.000000)">
-                                                <path d="M2.4721,31.8929 C0.8761,31.8929 -0.2939,30.4019 0.0651,28.8459 C1.4471,22.8489 6.8191,18.3769 13.2361,18.3769 C19.6531,18.3769 25.0251,22.8489 26.4071,28.8459 C26.7651,30.4019 25.5951,31.8929 23.9991,31.8929 L2.4721,31.8929 Z" id="Fill-4"></path>
-                                                <path d="M20.3159,8.0794 C20.3159,11.9894 17.1459,15.1594 13.2359,15.1594 C9.3259,15.1594 6.1559,11.9894 6.1559,8.0794 C6.1559,4.1694 9.3259,0.9994 13.2359,0.9994 C17.1459,0.9994 20.3159,4.1694 20.3159,8.0794" id="Fill-1"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </g>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <div class="header"></div>
         <div class="seven columns project">
             <img class="projectimage" src="./pics/gooutside0.jpg">
             <img class="projectimage" src="./pics/gooutside1.jpg">
