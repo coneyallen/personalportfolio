@@ -1,0 +1,68 @@
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
+/* ===== Larger than phablet (also point when grid becomes active) - 550px ====== */
+
+@media (min-width: 550px) {
+.topbar {padding: 5% 0 7% 0; display: flex;}
+
+.title { text-align: left; }
+
+.navigation {text-align: right; float: right; margin: 0 0 0 0;}
+
+.nav_icon_container {margin: 0 0 0 40px;}
+
+.grid-item, .grid-sizer {width: 49.5%;}
+.gutter-sizer {width: 1%;}
+.grid-item {margin-bottom: 1%;}
+
+.sidebyside {
+    display: flex;
+
+}
+
+.sidebyside img {
+    margin-left: 3%;
+    width: 48.5%;
+    height: 48.5%;
+}
+
+.sidebyside img:first-child {
+	margin-left: 0;
+
+}
+
+.aboutdivider {margin: 7% 0;}
+
+}
+
+
+
+/* =============== Larger than tablet - 961px =============== */
+
+@media (min-width:961px) { 
+
+.aboutmewrapper {display: flex}
+.profilepic {margin-bottom: 0;}
+.description {margin-top: 0;}
+.grid-item, .grid-sizer {width: 32.6666666667%;}
+.profilepic {padding-top: 0;}
+
+}
+
+/* =============== Larger than tablet - 750px =============== */
+
+@media (min-width: 1025px) {
+
+
+.grid .four.columns {
+    padding-top: 22%;
+    width: 33.333333333%;
+}
+
+
+}

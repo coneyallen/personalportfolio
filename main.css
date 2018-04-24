@@ -1,0 +1,147 @@
+html {
+    overflow-y: scroll;
+}
+
+.navigation a {
+    text-decoration: none;
+
+}
+
+/*footer
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+footer {
+    text-align: center;
+    padding: 5% 0;
+}
+
+
+/*HEADER
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.topbar {padding: 20% 0;}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.title a {text-decoration: none; color: #4A4A4A;}
+
+/*NAV
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.navigation {
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+}
+
+.nav_icon_container {margin: 0 25px; display: inline;}
+
+.navicon svg {max-height: 27px;}
+
+.navicon #pen, 
+.navicon #camera, 
+.navicon #profile
+{transition: .4s ease;}
+
+.navicon:hover #pen,
+.navicon:hover #camera, 
+.navicon:hover #profile
+{fill: #4A4A4A;}
+
+#current {fill: #4A4A4A;}
+
+
+/*PROJECTS
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.grid-item,.grid-sizer {width: 100%;}
+.grid-item {float: left; margin-bottom: 2%;}
+.grid-item img {width: 100%; display: block;}
+
+.project {margin: 0;}
+.project img {width: 100%; height: auto;}
+
+.projecttitle {margin-bottom: .05rem;}
+
+.projectsub {font-style: italic; color: lightgrey;}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+.overlay:hover {opacity: 1;}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projectimage {margin-bottom: 2%;}
+
+
+/*PHOTOGRAPHY________________________________________________*/
+
+.gallery {
+    padding-top: 50%;
+    background-image: url(./pics/sofa.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+
+/*ABOUT________________________________________________*/
+
+
+.space {
+    height: 1px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.profilepic {
+    background-image: url("./pics/me.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 65%;
+    margin-bottom: 25px;
+}
+
+/*SOCIAL MEDIA
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.socialmediaicon {
+    filter: grayscale(100%);
+    max-height: 35px;
+    transition: .4s ease;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.socialmediaicon:hover {filter: grayscale(0%)}
+.contact {margin-top: 30px;}
+
+.button.resume {margin-top: 25px; margin-bottom: 0;}
+
+
